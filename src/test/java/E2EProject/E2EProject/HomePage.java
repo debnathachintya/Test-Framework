@@ -18,27 +18,21 @@ public class HomePage extends baseFile {
 
 	@Test(dataProvider = "getData")
 	public void pageNavigation(String user_name, String pass_word) throws IOException, InterruptedException {
-		test = extent.createTest("HomePage - pageNavigation - user:" + user_name);
 
 		driver.get(prop.getProperty("base_url"));
-		test.info("Navigated to Base URL");
 		LandingPage lp = new LandingPage(driver);
 
 		lp.user().sendKeys(user_name);
-		test.info("Entered username");
 
 		lp.pass().sendKeys(pass_word);
-		test.info("Entered password");
 
 		lp.login().click();
-		test.info("Login Button Clicked");
 		Thread.sleep(3000);
 	}
 
 	@AfterTest
 	public void tearDown() {
 		driver.close();
-		test.info("Browser Closed");
 		driver = null;
 	}
 

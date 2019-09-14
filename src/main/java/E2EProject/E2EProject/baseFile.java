@@ -14,16 +14,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-
 public class baseFile {
 	public static WebDriver driver;
 	public Properties prop;
-	public static ExtentHtmlReporter htmlReporter;
-	public static ExtentReports extent;
-	public static ExtentTest test;
 
 	public WebDriver initializeDriver() throws IOException {
 		prop = new Properties();
@@ -53,24 +46,4 @@ public class baseFile {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcFile, new File("./screenshot/" + TestName + ".png"));
 	}
-
-	/*
-	 * @BeforeSuite public void testSetup() { htmlReporter = new
-	 * ExtentHtmlReporter("./reports/extent.html"); extent = new ExtentReports();
-	 * extent.attachReporter(htmlReporter); }
-	 */
-
-	/*
-	 * @AfterMethod public void getResult(ITestResult result) { if
-	 * (result.getStatus() == ITestResult.FAILURE) {
-	 * test.fail(MarkupHelper.createLabel(result.getName() + "Test Case Failed",
-	 * ExtentColor.RED)); test.fail(result.getThrowable()); } else
-	 * if(result.getStatus() == ITestResult.SUCCESS) {
-	 * test.pass(MarkupHelper.createLabel(result.getName() + "Test Case Passed",
-	 * ExtentColor.GREEN)); } else {
-	 * test.skip(MarkupHelper.createLabel(result.getName() + "Test Case Passed",
-	 * ExtentColor.YELLOW)); test.skip(result.getThrowable()); } }
-	 * 
-	 * @AfterSuite public void flushReport() { extent.flush(); }
-	 */
 }

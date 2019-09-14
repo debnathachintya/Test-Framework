@@ -16,11 +16,7 @@ public class ValidateTitle extends baseFile {
 
 	@Test
 	public void pageNavigation() throws IOException, InterruptedException {
-		test = extent.createTest("ValidateTitle - pageNavigation");
-		test.info("Navigated to Base URL");
-
 		String page_title = driver.getTitle();
-		test.info("Captured Page Title");
 		Assert.assertEquals(page_title, "Welcome: Mercury Tours");
 
 		Thread.sleep(3000);
@@ -29,7 +25,6 @@ public class ValidateTitle extends baseFile {
 	@AfterTest
 	public void tearDown() {
 		driver.close();
-		test.info("Browser Closed");
 		driver = null;
 	}
 }
