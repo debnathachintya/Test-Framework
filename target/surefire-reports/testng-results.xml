@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30856" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:48:25Z">
+  <suite name="Suite" duration-ms="35399" started-at="2019-09-14T15:00:54Z" finished-at="2019-09-14T15:01:29Z">
     <groups>
     </groups>
-    <test name="HomePage Test" duration-ms="21655" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:48:16Z">
+    <test name="HomePage Test" duration-ms="25263" started-at="2019-09-14T15:00:54Z" finished-at="2019-09-14T15:01:19Z">
       <class name="E2EProject.E2EProject.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="initialize" is-config="true" duration-ms="5227" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:47:59Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="initialize" is-config="true" duration-ms="6556" started-at="2019-09-14T15:00:54Z" finished-at="2019-09-14T15:01:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="7786" started-at="2019-09-12T17:47:59Z" data-provider="getData" finished-at="2019-09-12T17:48:07Z">
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="9562" started-at="2019-09-14T15:01:00Z" data-provider="getData" finished-at="2019-09-14T15:01:10Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageNavigation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-12T17:48:08Z" finished-at="2019-09-12T17:48:08Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="16" started-at="2019-09-14T15:01:10Z" finished-at="2019-09-14T15:01:10Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="7310" started-at="2019-09-12T17:48:08Z" data-provider="getData" finished-at="2019-09-12T17:48:15Z">
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="7622" started-at="2019-09-14T15:01:10Z" data-provider="getData" finished-at="2019-09-14T15:01:18Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageNavigation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-14T15:01:19Z" finished-at="2019-09-14T15:01:19Z">
           <params>
             <param index="0">
               <value>
@@ -65,31 +65,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="tearDown" is-config="true" duration-ms="161" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="tearDown" is-config="true" duration-ms="175" started-at="2019-09-14T15:01:19Z" finished-at="2019-09-14T15:01:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- E2EProject.E2EProject.HomePage -->
     </test> <!-- HomePage Test -->
-    <test name="Validating Title" duration-ms="9147" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:25Z">
+    <test name="Validating Title" duration-ms="10072" started-at="2019-09-14T15:01:19Z" finished-at="2019-09-14T15:01:29Z">
       <class name="E2EProject.E2EProject.ValidateTitle">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="testSetup" is-config="true" duration-ms="345" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:47:54Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="testSetup" is-config="true" duration-ms="488" started-at="2019-09-14T15:00:53Z" finished-at="2019-09-14T15:00:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="initialize" is-config="true" duration-ms="5367" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:21Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="initialize" is-config="true" duration-ms="6179" started-at="2019-09-14T15:01:19Z" finished-at="2019-09-14T15:01:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="pageNavigation()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="pageNavigation" duration-ms="3028" started-at="2019-09-12T17:48:21Z" finished-at="2019-09-12T17:48:24Z">
+        <test-method status="PASS" signature="pageNavigation()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="pageNavigation" duration-ms="3031" started-at="2019-09-14T15:01:25Z" finished-at="2019-09-14T15:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="tearDown" is-config="true" duration-ms="152" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="tearDown" is-config="true" duration-ms="150" started-at="2019-09-14T15:01:29Z" finished-at="2019-09-14T15:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:25Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-14T15:01:29Z" finished-at="2019-09-14T15:01:29Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="flushReport" is-config="true" duration-ms="729" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:26Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="flushReport" is-config="true" duration-ms="962" started-at="2019-09-14T15:01:29Z" finished-at="2019-09-14T15:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
