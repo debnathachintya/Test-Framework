@@ -1,0 +1,80 @@
+12-09-2019 01:11:51.591 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 01:11:56.281 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 01:11:56.557 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 01:11:56.817 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 01:11:59.454 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 01:12:04.074 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 01:12:04.760 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 01:12:04.974 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 01:12:07.282 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 01:12:10.471 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed
+12-09-2019 01:12:13.897 [main] INFO  E2EProject.E2EProject.ValidateTitle - Driver is initialized
+12-09-2019 01:12:16.704 [main] INFO  E2EProject.E2EProject.ValidateTitle - Navigated to Homepage
+12-09-2019 01:12:16.740 [main] INFO  E2EProject.E2EProject.ValidateTitle - Successfully validated text message
+12-09-2019 01:12:19.965 [main] INFO  E2EProject.E2EProject.ValidateTitle - Browser Closed
+12-09-2019 21:22:09.459 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 21:22:12.011 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:22:12.255 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:22:12.504 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:22:14.541 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:22:19.583 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:22:20.114 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:22:20.301 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:22:22.260 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:22:26.004 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed
+12-09-2019 21:22:31.112 [main] INFO  E2EProject.E2EProject.ValidateTitle - Driver is initialized
+12-09-2019 21:22:33.720 [main] INFO  E2EProject.E2EProject.ValidateTitle - Navigated to Homepage
+12-09-2019 21:22:33.746 [main] INFO  E2EProject.E2EProject.ValidateTitle - Successfully validated text message
+12-09-2019 21:22:37.539 [main] INFO  E2EProject.E2EProject.ValidateTitle - Browser Closed
+12-09-2019 21:29:36.446 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 21:29:38.697 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:29:38.943 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:29:39.157 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:29:41.111 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:29:46.066 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:29:46.561 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:29:46.756 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:29:48.695 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:29:52.421 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed
+12-09-2019 21:29:55.734 [main] INFO  E2EProject.E2EProject.ValidateTitle - Driver is initialized
+12-09-2019 21:29:57.875 [main] INFO  E2EProject.E2EProject.ValidateTitle - Navigated to Homepage
+12-09-2019 21:29:57.901 [main] INFO  E2EProject.E2EProject.ValidateTitle - Successfully validated text message
+12-09-2019 21:30:01.725 [main] INFO  E2EProject.E2EProject.ValidateTitle - Browser Closed
+12-09-2019 21:31:50.374 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 21:31:52.701 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:31:52.951 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:31:53.175 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:31:55.193 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:32:00.236 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:32:00.448 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:32:00.899 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:32:02.824 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:32:06.488 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed
+12-09-2019 21:32:09.803 [main] INFO  E2EProject.E2EProject.ValidateTitle - Driver is initialized
+12-09-2019 21:32:13.968 [main] INFO  E2EProject.E2EProject.ValidateTitle - Navigated to Homepage
+12-09-2019 21:32:13.997 [main] INFO  E2EProject.E2EProject.ValidateTitle - Successfully validated text message
+12-09-2019 21:32:17.937 [main] INFO  E2EProject.E2EProject.ValidateTitle - Browser Closed
+12-09-2019 21:56:22.899 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 21:56:25.515 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:56:25.766 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:56:25.982 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:56:30.253 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:56:35.495 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 21:56:35.973 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 21:56:36.148 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 21:56:38.351 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 21:56:42.072 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed
+12-09-2019 21:56:45.026 [main] INFO  E2EProject.E2EProject.ValidateTitle - Driver is initialized
+12-09-2019 21:56:49.457 [main] INFO  E2EProject.E2EProject.ValidateTitle - Navigated to Homepage
+12-09-2019 21:56:49.484 [main] INFO  E2EProject.E2EProject.ValidateTitle - Successfully validated text message
+12-09-2019 21:56:53.269 [main] INFO  E2EProject.E2EProject.ValidateTitle - Browser Closed
+12-09-2019 22:28:42.669 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Driver is initialized
+12-09-2019 22:28:44.996 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 22:28:45.218 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 22:28:45.452 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 22:28:47.574 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 22:28:54.468 [main] INFO  E2EProject.E2EProject.HomePage - HomePage - Navigated to Homepage
+12-09-2019 22:28:54.932 [main] INFO  E2EProject.E2EProject.HomePage - Entered Username
+12-09-2019 22:28:55.096 [main] INFO  E2EProject.E2EProject.HomePage - Entered Password
+12-09-2019 22:28:57.526 [main] INFO  E2EProject.E2EProject.HomePage - Clicked on Login Button
+12-09-2019 22:29:01.169 [main] INFO  E2EProject.E2EProject.HomePage - Browser Closed

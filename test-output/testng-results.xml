@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26690" started-at="2019-09-11T17:25:11Z" finished-at="2019-09-11T17:25:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26690" started-at="2019-09-11T17:25:11Z" finished-at="2019-09-11T17:25:38Z">
+      <class name="E2EProject.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.HomePage@3ffc5af1]" name="initialize" is-config="true" duration-ms="5329" started-at="2019-09-11T17:25:11Z" finished-at="2019-09-11T17:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@5e5792a0]" name="initialize" is-config="true" duration-ms="5461" started-at="2019-09-11T17:25:16Z" finished-at="2019-09-11T17:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@3ffc5af1]" name="pageNavigation" duration-ms="7940" started-at="2019-09-11T17:25:22Z" data-provider="getData" finished-at="2019-09-11T17:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@3ffc5af1]" name="pageNavigation" duration-ms="7395" started-at="2019-09-11T17:25:30Z" data-provider="getData" finished-at="2019-09-11T17:25:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.HomePage@3ffc5af1]" name="tearDown" is-config="true" duration-ms="180" started-at="2019-09-11T17:25:37Z" finished-at="2019-09-11T17:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@5e5792a0]" name="tearDown" is-config="true" duration-ms="304" started-at="2019-09-11T17:25:37Z" finished-at="2019-09-11T17:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.E2EProject.HomePage -->
+      <class name="E2EProject.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="pageNavigation()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@5e5792a0]" name="pageNavigation" duration-ms="31" started-at="2019-09-11T17:25:37Z" finished-at="2019-09-11T17:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+      </class> <!-- E2EProject.E2EProject.ValidateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

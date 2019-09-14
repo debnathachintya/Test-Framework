@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30856" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:48:25Z">
+    <groups>
+    </groups>
+    <test name="HomePage Test" duration-ms="21655" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:48:16Z">
+      <class name="E2EProject.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="initialize" is-config="true" duration-ms="5227" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="7786" started-at="2019-09-12T17:47:59Z" data-provider="getData" finished-at="2019-09-12T17:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-12T17:48:08Z" finished-at="2019-09-12T17:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageNavigation status=SUCCESS method=HomePage.pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="pageNavigation" duration-ms="7310" started-at="2019-09-12T17:48:08Z" data-provider="getData" finished-at="2019-09-12T17:48:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageNavigation status=SUCCESS method=HomePage.pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.HomePage@6537cf78]" name="tearDown" is-config="true" duration-ms="161" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.E2EProject.HomePage -->
+    </test> <!-- HomePage Test -->
+    <test name="Validating Title" duration-ms="9147" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:25Z">
+      <class name="E2EProject.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="testSetup" is-config="true" duration-ms="345" started-at="2019-09-12T17:47:54Z" finished-at="2019-09-12T17:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="initialize" is-config="true" duration-ms="5367" started-at="2019-09-12T17:48:16Z" finished-at="2019-09-12T17:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="pageNavigation()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="pageNavigation" duration-ms="3028" started-at="2019-09-12T17:48:21Z" finished-at="2019-09-12T17:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="tearDown" is-config="true" duration-ms="152" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageNavigation status=SUCCESS method=ValidateTitle.pageNavigation()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:E2EProject.E2EProject.ValidateTitle@7946e1f4]" name="flushReport" is-config="true" duration-ms="729" started-at="2019-09-12T17:48:25Z" finished-at="2019-09-12T17:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- E2EProject.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title -->
+  </suite> <!-- Suite -->
+</testng-results>
