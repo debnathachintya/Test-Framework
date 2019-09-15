@@ -4,26 +4,15 @@
   <listeners>
     <listener class-name="E2EProject.E2EProject.listeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="HomePage Test(failed)">
+  <test thread-count="5" verbose="0" name="Mercury Tours Application Test(failed)">
     <classes>
-      <class name="E2EProject.E2EProject.HomePage">
+      <class name="cucumberOptions.TestRunner">
         <methods>
-          <include name="initialize"/>
-          <include name="pageNavigation" invocation-numbers="0 1"/>
-          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- E2EProject.E2EProject.HomePage -->
+      </class> <!-- cucumberOptions.TestRunner -->
     </classes>
-  </test> <!-- HomePage Test(failed) -->
-  <test thread-count="5" verbose="0" name="Validating Title(failed)">
-    <classes>
-      <class name="E2EProject.E2EProject.ValidateTitle">
-        <methods>
-          <include name="initialize"/>
-          <include name="pageNavigation"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- E2EProject.E2EProject.ValidateTitle -->
-    </classes>
-  </test> <!-- Validating Title(failed) -->
+  </test> <!-- Mercury Tours Application Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
